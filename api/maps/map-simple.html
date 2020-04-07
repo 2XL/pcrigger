@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<style>
+		#map-canvas {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+</style>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	
+	
+<script>
+	var map; 
+	function initialize() {
+		
+		// default
+
+		
+		// tgn 
+		// cambrils
+		var logitude = 41.064978840142174;
+		var latitude = 1.0603107511997223;
+		
+		
+ 
+		
+		
+		var mapOptions = {
+			zoom: 20,
+			center: new google.maps.LatLng(logitude, latitude), // dirección predefinida...
+			mapTypeId: google.maps.MapTypeId.SATELLITE 
+		};
+		map = new google.maps.Map(document.getElementById('map-canvas'),
+		mapOptions);
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+</script> 
+ 
+<div id="map-canvas"></div>
+

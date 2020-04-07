@@ -1,0 +1,73 @@
+
+root { 
+    display: block;
+}
+
+.content{ 
+	width: 800px; 
+/*	border: 1pt solid gold; */
+	margin-top: 100px;
+	margin-left:auto; 
+    margin-right:auto;
+	padding: 20px;	
+}
+
+.content_main{ 
+	width: 800px; 
+/*	border: 1pt solid gold; */
+	margin-top: 100px;
+	margin-left:auto; 
+    margin-right:auto;
+	padding: 20px;	
+}
+#welcome {
+
+}
+
+#welcome caption{
+	font-size: 20px;
+	margin: 10px;
+	color: #111111;
+}
+
+#welcome td{
+	margin-top: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	font-size: 12px;
+}
+
+
+#video {
+	
+	
+}
+
+#video caption{
+	
+}
+
+#video td{
+	
+	
+}
+
+#full_contact{
+
+}
+
+#full_contact table{
+	width: available;
+	
+}
+
+#full_contact td{
+	
+	
+}
+
+.promo{
+	
+}
+
+

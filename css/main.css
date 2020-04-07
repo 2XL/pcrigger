@@ -1,0 +1,75 @@
+/* 
+    Document   : main
+    Created on : 28-jun-2013, 9:27:32
+    Author     : XL
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html{
+	overflow: scroll;
+}
+
+.global{
+	width: 1200px; 
+	padding: 50px;
+/*	border: 1pt solid white; */
+	margin-left:auto; 
+    margin-right:auto;
+	background-color: white;
+}
+  
+.logo{
+	text-align: left;   
+	height: 180px;
+	width: 180px;
+}
+
+
+.web_name{
+	margin-left: 200px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center; 
+}
+
+.title-text{
+	height: max-content;
+	width: max-content;
+}
+
+.spec_event{
+	font-size: 15px; 
+}
+
+
+.event_name{ 
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 2px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  font-variant: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  border-radius: 6px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
